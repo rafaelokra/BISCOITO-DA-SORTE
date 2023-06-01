@@ -18,19 +18,91 @@ body{
 
         /* screen1*/
 .home{
-   display: none;
+  
     width: 42.8rem;
     height: 42.4rem;
     
     background: #FFFFFF;
     box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.8);
     border-radius: 5px;
+
+    
 }
-h1{
+.title h1{
+    margin-top: 4.8rem;
+    margin-bottom: 1.4rem;
+    
+    font-family: 'Montserrat';
+
+}
+.subtitle{
+    margin-top: 14px;
+    width: 192px;
+    height: 20px;
+    margin: auto;
+    
+}
+.subtitle p{
+    width: 19.2rem;
+    height: 2.0rem;
+    
+
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2.0rem;
+    font-family: 'DM Sans';
+
+    color: #34355B;
+    background-color: white;
+}
+   
+img{
+    margin-top: 2.0rem;
+    margin-left: 6.4rem;
+    cursor: pointer;
+}
+      
+            /*sorte*/
+
+.luck{
+    
+        width: 428px;
+        height: 564px;
+         background: #FFFFFF;
+         box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.8);
+         border-radius: 5px;
+ }
+ .center{
+  
+    width: 30.0rem;
+    height: 46.8rem;
+    margin:  4.8rem auto;
+
+ }
+   
+ 
+        
+ .sorte{
+        width: 2.93rem;
+        height: 10.7rem;
+        margin-top: 1.7rem;
+       
+       
+        font-weight: 400;
+        font-family: 'Dancing Script';
+        text-align: center;
+        
+        
+       
+
+    color: #000000;
+ }
+ h1{
+   
     width: 29.7rem;
     height: 5.8rem;
     text-align: center;
-    margin:  4.8rem auto;
+    margin:  0 auto;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 2.4rem;
@@ -62,54 +134,33 @@ p{
 
     color: #34355B;
 }
-img{
-    
-    width: 42.3rem;
-    height: 20.0rem;
-    margin-top: 7em;
-    margin-left: 6.3rem;
-}
-      
-            /*sorte*/
-
-.luck{
-    
-        width: 428px;
-        height: 564px;
-         display: block;
-
-         background: #FFFFFF;
-         box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.8);
-         border-radius: 5px;
- }
- .center{
-   
-    width: 300px;
-    height: 468px;
-    margin:  4.8rem auto;
-
- }
-   
- 
-        
- .sorte{
-        width: 2.93rem;
-        height: 10.7rem;
-        
-        
-       
-        font-weight: 400;
-        font-family: 'Dancing Script';
-        text-align: center;
-           
-
-    color: #000000;
- }
  .opned img{
-    
+   
     width: 30.0rem;
     height: 11.4rem;
     margin: 5.9rem auto;
    
  }
+ button{
+  
+    
+    border: none;
+    margin-left: 6.3rem;
+  
+    
+     
+    width: 17.7rem;
+    height: 5.2rem;
+    background: #FF9500;
+    border-radius: 4px;
+
+    font-family: 'DM Sans';
+
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 1.5rem;
+
+    cursor: pointer;
+ }
+
         

@@ -16,10 +16,16 @@
 <body>
     <main class="home" >
         
-           <h1>Qual é a sua sorte de hoje?</h1>
-           <p>Abra o biscoito e descubra!</p>
+           <div class="title">
+               <h1>Qual é a sua sorte de hoje?</h1>
+           </div>
+
+
+           <div class="subtitle">
+               <p> Abra o biscoito e descubra!</p>
+           </div>
       
-            <img src="assets/fortune-cookie.png" alt="imagem do biscoito da sorte">
+            <img  id="btnReset"  src="assets/fortune-cookie.png" alt="imagem do biscoito da sorte">
        
 
 </main  >
@@ -32,10 +38,12 @@
                     </div>
                     <div class="opned">
                         <img src="assets/biscoito-2.png" alt="">
+                        <button id="btnBack" >Abrir outro biscoito</button>
                     </div>
-                    <button>Abrir outro biscoito</button>
+                   
                 </div>
           
         </main>
+        <script src="script.js"></script>
 </body>
 </html>
